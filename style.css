@@ -2,3 +2,72 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+background-image: url(/photos/OSIRIS_Mars_true_color.jpg);
+    background-size:cover;
+}
+
+.form-container {
+    display: flex;
+    margin-left: auto;
+    width: 50vw;
+    height: 89.8vh;
+    background-color: rgb(5, 5, 5);
+    justify-content: center;
+    padding-top: 100px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.title > h1 {
+    font-family: "Heebo", sans-serif;
+    color: rgb(221, 221, 221);
+    font-size: 3rem;
+}
+
+.title > p {
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.form > div > label  {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.form input {
+    display: flex;
+    flex-direction: column;
+    height: 20px;
+    width: 400px;
+    justify-content: center;
+    align-content: center;
+}
+
+.submit-btn {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background-color: rgb(5, 5, 5);
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
